@@ -96,7 +96,6 @@ class Projekt:
             kk = kk+1
 
     def output_data(self):
-        print(len(self.res_test_f))
         xzy="["
         for item in self.res_test_f:
             xzy+=str(item)+","
